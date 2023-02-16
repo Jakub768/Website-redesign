@@ -1,9 +1,15 @@
+*{margin: 0px 0px 0px 0px;}
+
 body { font-family: Arial, Helvetica, sans-serif; 
-       background-color: #BBDBB4;}
+       }
 
 header { background-color: #FCF0CC;
 }
-nav {background-color: #6a4292
+nav {background-color: #057302
 }
 img { width: 180px; 
       height: 180px;}
+
+nav { padding: 10px;}
+
+main {background-color: #BBDBB4;}
