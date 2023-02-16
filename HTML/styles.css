@@ -3,15 +3,23 @@
 body { font-family: Arial, Helvetica, sans-serif; 
        }
 
-header { background-color: #FCF0CC;
+header {
+       background-color: #FCF0CC;
 }
+h1{    display: inline-block;
+       align-content: left;}
+
+
 nav {background-color: #057302;
 }
 
 a{     margin: 5px 5px 5px 5px;
-       border-right: 5px #041b15;}
+       color: black;
+       border-right: 3px solid #041b15;
+       border-bottom: 3px solid #041b15;}
 
-img { width: 180px; 
+img { align-content: left;
+       width: 180px; 
       height: 180px;}
 
 nav { padding: 10px;}
