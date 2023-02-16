@@ -1,0 +1,2 @@
+var textSize = 20;
+
