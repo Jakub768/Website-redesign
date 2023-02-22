@@ -34,7 +34,7 @@ a{ text-decoration: none;}
 
 #cspace:hover{border-color: rgba(4, 80, 1, .5);
        border-style: solid;
-       border-left: 2px solid rgb(139, 190, 137, .5);;
+       border-left: 2px solid rgb(139, 190, 137, .5);
        border-top: 2px solid rgb(139, 190, 137, .5);
        border-width: 5px;
        }
