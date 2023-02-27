@@ -9,6 +9,10 @@ header {
 h1{    display: inline-block;
        align-content: left;}
 
+h2{display: inline-block;
+       align-content: left;
+margin-left: 8px;}
+
 
 nav {background-color: #057302;
        padding: 5px;
@@ -35,23 +39,46 @@ a{ text-decoration: none;
        margin: 5px 5px 5px 5px;
        color: black;}
 
-
-
-
-
  #cspace:hover{border-color: rgba(4, 80, 1);
        border-style: none solid solid none;
        background-color: #BBDBB4;
        border-width: 5px;
        }
 
-a{     
-       margin: 5px 5px 5px 5px;
-       color: black;
-      }
-
 img { align-content: left;
        width: 180px; 
       height: 180px;}
 
 main {background-color: #BBDBB4;}
+
+p{
+
+margin-left: 8px;
+
+}
+
+input[type=text] {
+       width: 40%;
+       padding: 12px 20px;
+       margin: 8px 8px;
+       box-sizing: border-box;
+     }
+
+     input[type=email] {
+       width: 50%;
+       padding: 12px 20px;
+       margin: 8px 8px;
+       box-sizing: border-box;
+     }
+
+     textarea {
+       width: 50%;
+       height: 150px;
+       padding: 12px 20px;
+       margin: 8px 8px;
+       box-sizing: border-box;
+       border: 2px solid;
+       border-radius: 4px;
+       background-color: #f8f8f8;
+       resize: none;
+     }
