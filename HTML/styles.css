@@ -106,3 +106,16 @@ input[type=text] {
 
        outline: none;
      }
+
+     button{
+
+       font-family: Arial, Helvetica, sans-serif;
+       width: 100px;
+       padding: 12px 20px;
+       margin: 8px 8px;
+       box-sizing: border-box;
+       border-style: none solid solid none;
+       background-color: #fcf0cc;
+       border-width: 5px;
+
+     }
