@@ -1,6 +1,7 @@
 *{margin: 0px 0px 0px 0px;}
 
 body { font-family: Arial, Helvetica, sans-serif; 
+  background-color: #BBDBB4;
        }
 
 header {
@@ -49,15 +50,45 @@ a{ text-decoration: none;
        border-width: 5px;
        }
 
-img { align-content: left;
+ #Bonzi{ align-content: left;
        width: 180px; 
       height: 180px;}
 
-main {background-color: #BBDBB4;}
+main {
+
+  content: "";
+  clear: both;
+  display: table;
+
+  }
 
 p{
 
 margin-left: 8px;
+
+}
+
+img{
+
+  width: 180px; 
+  height: 180px;
+}
+
+#first {
+  float: left;
+ 
+ 
+}
+
+
+
+#second{
+
+  position: fixed;
+  bottom: 25%;
+  right: 0;
+  width: 50%;
+  
 
 }
 
@@ -130,7 +161,7 @@ input[type=text] {
        font-family: Arial, Helvetica, sans-serif;
        width: 25%;
        padding: 12px 20px;
-       margin: 8px 8px;
+       margin: 8px 12.5%;
        box-sizing: border-box;
        border-style: none solid solid none;
        background-color: #fcf0cc;
