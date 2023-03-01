@@ -34,11 +34,10 @@ h2 {
 nav {
   background-color: #057302;
   padding: 5px;
-
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 100%;
-  min-width: 1000px;
+ text-align: center;
+  
+  max-width: 750px;
+  
 }
 
 li {
@@ -74,6 +73,8 @@ a {
 }
 
 #AboutUs{
+
+width: 750px;
 align-content: left;
 margin-left: 5%;
 
@@ -186,28 +187,20 @@ img {
   
 }
 
+#ContactUs{
+  overflow: auto;
+  width: 750px;
+text-align: center;
+
+}
+
+
 #first {
   float: left;
-  
-
-}
-
-#second {
-
-  overflow: auto;
-  bottom: 25%;
-  right: 0;
-  width: 40%;
   margin-left: 5%;
-  margin-right: 5%;
- 
+  width: 375;
 }
 
-#mail
-{
-  display: block;
-  max-width: 100%;
-}
 
 #Donation {
 
@@ -227,7 +220,7 @@ input[type=text] {
   width: 50%;
   padding: 12px 20px;
   margin: 0px;
-  margin-left: 5%;
+  
   margin-right: 5%;
   box-sizing: border-box;
   border-style: none solid solid none;
@@ -246,16 +239,16 @@ input[type=text]:hover {
 }
 
 input[type=email] {
-  font-family: Arial, Helvetica, sans-serif;
   width: 50%;
   padding: 12px 20px;
-  margin: 8px;
-  margin-left: 5%;
+  margin: 8px 0px 8px 0px;
+  
   margin-right: 5%;
   box-sizing: border-box;
   border-style: none solid solid none;
   background-color: #fcf0cc;
   border-width: 7.5px;
+  resize: none;
 }
 
 input[type=email]:focus {
@@ -273,7 +266,7 @@ textarea {
   height: 150px;
   padding: 12px 20px;
   margin: 0px;
-  margin-left: 5%;
+  
   margin-right: 5%;
   box-sizing: border-box;
   border-style: none solid solid none;
@@ -298,8 +291,8 @@ button {
   width: 25%;
   padding: 12px 20px;
   margin: 8px;
-  margin-left: 17.5%;
-  margin-right: 17.5%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
   box-sizing: border-box;
   border-style: none solid solid none;
   border-color: grey;
@@ -337,5 +330,12 @@ border-color: transparent;
 #Btnsubmit:hover{
 
   border-color: #041B15;
+
+}
+
+footer{
+
+
+width: 750px;
 
 }
