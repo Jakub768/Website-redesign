@@ -75,8 +75,15 @@ a {
 #AboutUs{
 
 width: 750px;
-align-content: left;
+align-content: center;
 margin-left: 5%;
+margin-right: 5%;
+
+}
+
+#introPara{
+  height: 180px;
+  align-content: left;
 
 }
 
@@ -92,7 +99,7 @@ main {
 
 
 #BonziPng{
-  margin-left: 5%;
+margin-bottom: -50px;
 float:right;
 
 }
@@ -107,7 +114,7 @@ video
   width: 750px;
   margin-left: 5%;
   margin-right: 5%;
-padding: 10px;
+
 
 display: inline-block;
 
@@ -120,7 +127,7 @@ display: inline-block;
   width: 500px;
   margin-left: 5%;
   margin-right: 5%;
-padding: 10px;
+
 
 display: inline-block;
 }
