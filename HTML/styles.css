@@ -199,7 +199,7 @@ img {
 
 #DonationMain{
   overflow: auto;
-  width: 1500px;
+  width: 750px;
   text-align: center;
 
 }
@@ -208,14 +208,14 @@ img {
 
   float: left;
   margin-left: 5%;
-  width: 375px;
+  width: 300px;
 }
 
 #DonationForm
 {
   overflow: hidden;
-  margin-left: 50px;
-  width: 750px;
+  float: right;
+  width: 350px;
 }
 
 #Donation {
@@ -362,5 +362,6 @@ width: 750px;
 
 .paypalimg
 {
-  width: 350px;
+  width: 175px;
+  height: 120px;
 }
