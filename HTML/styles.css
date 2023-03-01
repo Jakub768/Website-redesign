@@ -4,10 +4,12 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #BBDBB4;
+ background-color: #BBDBB4;
+  margin:0;
 }
 
 header {
+  width: 100%;
   background: linear-gradient(to top, #057302 0%, #057302 60%, #fcf0cc 60%, #fcf0cc 100%);
 }
 
@@ -215,6 +217,7 @@ button {
   margin-right: 17.5%;
   box-sizing: border-box;
   border-style: none solid solid none;
+  border-color: grey;
   background-color: #fcf0cc;
   border-width: 7.5px;
 
@@ -239,13 +242,15 @@ border-color: transparent;
 
 
   width: 20%;
-  padding: 12px 20px;
-  margin: 8px;
+ 
   margin-left: 20%;
   margin-right: 20%;
-  box-sizing: border-box;
-  border-style: none solid solid none;
-  background-color: #fcf0cc;
-  border-width: 7.5px;
+ 
+
+}
+
+#Btnsubmit:hover{
+
+  border-color: #041B15;
 
 }
