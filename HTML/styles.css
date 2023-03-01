@@ -428,3 +428,7 @@ margin-right:5% ;
   from {opacity: .4}
   to {opacity: 3}
 }
+
+#slide1 {
+  display: block;
+}

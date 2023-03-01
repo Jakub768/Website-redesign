@@ -17,6 +17,8 @@ function clearfields()
     document.getElementById('message').value = ''
 }
 
+
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
