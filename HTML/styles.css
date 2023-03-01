@@ -311,7 +311,6 @@ button:hover {
 
 #blank {
 
-
 background-color: transparent;
 border-color: transparent;
 
@@ -338,7 +337,7 @@ border-color: transparent;
 
 footer{
 
-text-align: left;
+text-align: center;
 width: 750px;
 
 }
