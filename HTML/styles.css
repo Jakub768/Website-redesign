@@ -186,19 +186,19 @@ img {
 
 #first {
   float: left;
-
+  
 
 }
 
 #second {
 
-  position: fixed;
+  overflow: auto;
   bottom: 25%;
   right: 0;
-  width: 50%;
+  width: 40%;
   margin-left: 5%;
   margin-right: 5%;
-
+ 
 }
 
 #Donation {
