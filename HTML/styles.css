@@ -4,7 +4,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #BBDBB4;
+ background-color: #BBDBB4;
  
 }
 
@@ -32,12 +32,14 @@ h2 {
 nav {
   background-color: #057302;
   padding: 5px;
-  text-align: center;
+ text-align: center;
+  
   max-width: 750px;
   
 }
 
 li {
+  
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 20px;
@@ -68,11 +70,13 @@ a {
   height: 180px;
 }
 
-#AboutUs { 
+#AboutUs{
+
 width: 750px;
 align-content: center;
 margin-left: 5%;
 margin-right: 5%;
+
 }
 
 #introPara{
@@ -82,6 +86,7 @@ margin-right: 5%;
 }
 
 main {
+
   font-family: Arial, Helvetica, sans-serif;
   content: "";
   clear: both;
@@ -89,32 +94,75 @@ main {
 
 }
 
-#BonziPng {
+
+
+#BonziPng{
 margin-bottom: -50px;
 float:right;
+
 }
 
-video {
+video
+{
   margin-left: 2%;
 }
 
-#IntroMain {
+#IntroMain{
+
   width: 750px;
   margin-left: 5%;
   margin-right: 5%;
-  display: inline-block;
+
+
+display: inline-block;
+
+
 }
 
-#SecondMain {
+#SecondMain{
+
+
   width: 500px;
   margin-left: 5%;
   margin-right: 5%;
-  display: inline-block;
+
+
+display: inline-block;
 }
 
-.bbImg {
+
+
+#Meetyou {
+
 width: auto;
 height: auto;
+
+
+}
+
+#bbMail {
+
+  width: auto;
+  height: auto;
+  
+  
+  }
+  
+#bbVem{
+
+
+  width: auto;
+  height: auto;
+
+
+}
+
+#bbMoive{
+
+  width: auto;
+  height: auto;
+  
+
 }
 
 img {
@@ -123,12 +171,16 @@ img {
   height: 180px;
 }
 
+
 #Paypalimg {
+
   width: 250px;
   height: 100px;
+  
 }
 
-#Contact {
+#Contact
+{
   width: 300px;
   padding: 12px 20px;
   margin: 20px 0px 8px 0px;
@@ -141,41 +193,62 @@ img {
   resize: none;
 }
 
-#ContactUs {
+#ContactUs
+{
   overflow: auto;
   width: 750px;
   text-align: center;
+
 }
 
-#contactForm, #DonationSub
+
+#first
 {
   float: left;
   margin-left: 5%;
   width: 300px;
 }
 
-#contactTxt, #DonationForm {
+#second
+{
   overflow: hidden;
   float: right;
   width: 380px;
 }
 
-#contactTxt img {
+#second img
+{
   width: 250px;
   height: 250px;
 }
 
-#DonationMain {
+#DonationMain{
   overflow: auto;
   width: 750px;
   text-align: center;
 
 }
 
-#Donation {
+#DonationSub{
+
+  float: left;
+  margin-left: 5%;
+  width: 300px;
+}
+
+#DonationForm
+{
+  overflow: hidden;
+  float: right;
+  width: 350px;
+}
+
+#Donation
+{
   width: 375px;
   padding: 12px 20px;
   margin: 20px 0px 8px 0px;
+  
   margin-right: 5%;
   box-sizing: border-box;
   border-style: none solid solid none;
@@ -184,10 +257,11 @@ img {
   resize: none;
 }
 
-input[type=text], input[type=email] {
+input[type=text] {
   width: 50%;
   padding: 12px 20px;
   margin: 0px;
+  
   margin-right: 5%;
   box-sizing: border-box;
   border-style: none solid solid none;
@@ -195,12 +269,37 @@ input[type=text], input[type=email] {
   border-width: 7.5px;
 }
 
-input[type=text]:focus, input[type=email]:focus, textarea:focus {
+input[type=text]:focus {
   outline: none;
 }
 
-input[type=text]:hover, input[type=email]:hover, textarea:hover, button:hover, #Btnsubmit:hover {
+input[type=text]:hover {
+
   border-color: #041B15;
+
+}
+
+input[type=email] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0px 8px 0px;
+  
+  margin-right: 5%;
+  box-sizing: border-box;
+  border-style: none solid solid none;
+  background-color: #fcf0cc;
+  border-width: 7.5px;
+  resize: none;
+}
+
+input[type=email]:focus {
+  outline: none;
+}
+
+input[type=email]:hover {
+
+  border-color: #041B15;
+
 }
 
 textarea {
@@ -208,12 +307,24 @@ textarea {
   height: 150px;
   padding: 12px 20px;
   margin: 0px;
+  
   margin-right: 5%;
   box-sizing: border-box;
   border-style: none solid solid none;
   background-color: #fcf0cc;
   border-width: 7.5px;
   resize: none;
+}
+
+textarea:focus {
+
+  outline: none;
+}
+
+textarea:hover {
+
+  border-color: #041B15;
+
 }
 
 button {
@@ -230,9 +341,17 @@ button {
 
 }
 
+button:hover {
+
+  border-color: #041B15;
+
+}
+
 #blank {
+
 background-color: transparent;
 border-color: transparent;
+
 }
 
 #Btnsubmit {
@@ -249,20 +368,30 @@ border-color: transparent;
   border-width: 7.5px;
 }
 
-footer {
+#Btnsubmit:hover{
+
+  border-color: #041B15;
+
+}
+
+footer{
+
 text-align: center;
 width: 750px;
 margin-left: 2.5%;
 margin-right:5% ;
+
 }
 
-.info {
+.info
+{
   margin-top: 40px;
 }
 
-.paypalimg {
+.paypalimg
+{
   width: 175px;
-  height: 100px;
+  height: 120px;
 }
 
 .slideshow-container {
@@ -270,7 +399,6 @@ margin-right:5% ;
   position: left;
   margin: auto;
 }
-
 
 .mySlides {
   display: none;
