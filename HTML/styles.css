@@ -162,10 +162,6 @@ height: auto;
   height: auto;
   
 
-
-
-
-
 }
 
 img {
@@ -204,6 +200,12 @@ img {
   margin-left: 5%;
   margin-right: 5%;
  
+}
+
+#mail
+{
+  display: block;
+  max-width: 100%;
 }
 
 #Donation {
