@@ -17,24 +17,39 @@
                 <h1>Donations</h1>
             </td>
         </table>
-        <nav >
-            <ul >
-                <li id ="cspace"><a href="Home.html">Home</a></li>
-                <li id ="cspace"><a href="AboutUs.html">About Us</a></li>
-                <li id ="cspace"><a href="Contact.html">Contact Us</a></li>
-                <li id ="cspace"><a href="Donation.html">Donate</a></li>
-              </ul>
+        <nav>
+            <ul>
+                <li id="cspace"><a href="Home.html">Home</a></li>
+                <li id="cspace"><a href="AboutUs.html">About Us</a></li>
+                <li id="cspace"><a href="Contact.html">Contact Us</a></li>
+                <li id="cspace"><a href="Donation.html">Donate</a></li>
+            </ul>
         </nav>
     </header>
     <main>
         <section>
-            <p>you can donate money to support our development of Bonzi buddy AI
-                donations allowed:
-                <li>
-                    paypal
-                    Bank
-                </li>
-            </p>
+            <h2>How can you donate?</h2>
+
+            <p>Bonzi Buddy is a free program that everyone can download. However we provide the option to donate to us
+                to keep with costs and to keep our website running.</p>
+            <p>There are several ways you can donate to us.</p>
+
+            <h2>Paypal</h2>
+            <p>Paypal is a quick and easy payment method. It is completely safe and secure. Click on the button below to
+                take you to the paypal site:</p>
+            <img id="Paypalimg" src="paypalbtn.png" />
+            <br>
+
+            <h2>Form</h2>
+            <p>You can also submit a form manually filling bank account details:</p>
+
+            <form id="first">
+                <br>
+                <input type="text" id="name" name="name" placeholder="Fullname"><br />
+                <input type="text" id="name" name="name" placeholder="account number"><br />
+                <input type="text" id="name" name="name" placeholder="Sort code"><br />
+                <button type="submit" id="Btnsubmit" onclick="buttonOn()">Send Message</button>
+            </form>
         </section>
     </main>
 </body>
