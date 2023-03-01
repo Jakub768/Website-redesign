@@ -93,10 +93,15 @@ img {
 
 #Paypalimg {
 
-  margin-left: 5%;
-  margin-right: 5%;
+
   width: 250px;
   height: 100px;
+  
+}
+
+#Paypalimg:hover {
+ box
+  box-shadow:2px 2px 4px #000000;
   
 }
 
@@ -218,5 +223,29 @@ button {
 button:hover {
 
   border-color: #041B15;
+
+}
+
+#blank {
+
+  margin-left: 5%;
+  margin-right: 5%;
+background-color: transparent;
+border-color: transparent;
+
+}
+
+#Btnsubmit {
+
+
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px;
+  margin-left: 20%;
+  margin-right: 20%;
+  box-sizing: border-box;
+  border-style: none solid solid none;
+  background-color: #fcf0cc;
+  border-width: 7.5px;
 
 }
