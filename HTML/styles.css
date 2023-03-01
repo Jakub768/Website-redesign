@@ -186,7 +186,7 @@ img {
 #ContactUs{
   overflow: auto;
   width: 750px;
-text-align: center;
+  text-align: center;
 
 }
 
@@ -199,7 +199,7 @@ text-align: center;
 
 #DonationMain{
   overflow: auto;
-  width: 750px;
+  width: 1500px;
   text-align: center;
 
 }
@@ -211,12 +211,17 @@ text-align: center;
   width: 375px;
 }
 
-
+#DonationForm
+{
+  overflow: hidden;
+  margin-left: 50px;
+  width: 750px;
+}
 
 #Donation {
   width: 375px;
   padding: 12px 20px;
-  margin: 8px 0px 8px 0px;
+  margin: 20px 0px 8px 0px;
   
   margin-right: 5%;
   box-sizing: border-box;
@@ -328,6 +333,7 @@ border-color: transparent;
   width: 25%;
   padding: 12px 20px;
   margin: 8px;
+  margin-top: 20px;
   text-align: center;
   box-sizing: border-box;
   border-style: none solid solid none;
