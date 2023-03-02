@@ -4,7 +4,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
- background-color: #BBDBB4;
+  background-color: #BBDBB4;
  
 }
 
@@ -32,14 +32,12 @@ h2 {
 nav {
   background-color: #057302;
   padding: 5px;
- text-align: center;
-  
+  text-align: center;
   max-width: 750px;
   
 }
 
-li {
-  
+li { 
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 20px;
@@ -70,23 +68,19 @@ a {
   height: 180px;
 }
 
-#AboutUs{
-
+#AboutUs {
 width: 750px;
 align-content: center;
 margin-left: 5%;
 margin-right: 5%;
-
 }
 
-#introPara{
+#introPara {
   height: 180px;
   align-content: left;
-
 }
 
 main {
-
   font-family: Arial, Helvetica, sans-serif;
   content: "";
   clear: both;
@@ -95,73 +89,54 @@ main {
 }
 
 
-
-#BonziPng{
-margin-bottom: -50px;
-float:right;
-
+.bbImg {
+  width: auto;
+  height: auto;
 }
 
-video
-{
+#BonziPng {
+margin-bottom: -50px;
+float:right;
+}
+
+video {
   margin-left: 2%;
 }
 
-#IntroMain{
-
+#IntroMain {
   width: 750px;
   margin-left: 5%;
   margin-right: 5%;
-
-
-display: inline-block;
-
-
+  display: inline-block;
 }
 
-#SecondMain{
-
-
+#SecondMain {
   width: 500px;
   margin-left: 5%;
   margin-right: 5%;
-
-
-display: inline-block;
+  display: inline-block;
 }
-
-
 
 #Meetyou {
-
 width: auto;
 height: auto;
-
-
 }
 
-
-
 img {
-
   width: 180px;
   height: 180px;
 }
 
 
 #Paypalimg {
-
   width: 250px;
   height: 100px;
-  
 }
 
-#Contact
-{
+#Contact {
   width: 300px;
   padding: 12px 20px;
   margin: 20px 0px 8px 0px;
-  
   margin-right: 5%;
   box-sizing: border-box;
   border-style: none solid solid none;
@@ -170,62 +145,53 @@ img {
   resize: none;
 }
 
-#ContactUs
-{
+#ContactUs {
   overflow: auto;
   width: 750px;
   text-align: center;
-
 }
 
 
-#first
-{
+#first {
   float: left;
   margin-left: 5%;
   width: 300px;
 }
 
-#second
-{
+#second {
   overflow: hidden;
   float: right;
   width: 380px;
 }
 
-#second img
-{
+#second img {
   width: 250px;
   height: 250px;
 }
 
-#DonationMain{
+#DonationMain {
   overflow: auto;
   width: 750px;
   text-align: center;
 
 }
 
-#DonationSub{
-
+#contactForm, #DonationSub {
   float: left;
   margin-left: 5%;
   width: 300px;
 }
 
-#DonationForm
-{
+#contactTxt, #DonationForm {
   overflow: hidden;
   float: right;
-  width: 350px;
+  width: 380px;
 }
 
-#Donation
-{
+#Donation {
   width: 375px;
   padding: 12px 20px;
   margin: 20px 0px 8px 0px;
-  
   margin-right: 5%;
   box-sizing: border-box;
   border-style: none solid solid none;
@@ -238,7 +204,6 @@ input[type=text] {
   width: 50%;
   padding: 12px 20px;
   margin: 0px;
-  
   margin-right: 5%;
   box-sizing: border-box;
   border-style: none solid solid none;
@@ -246,11 +211,11 @@ input[type=text] {
   border-width: 7.5px;
 }
 
-input[type=text]:focus {
+input[type=text]:focus, input[type=email]:focus {
   outline: none;
 }
 
-input[type=text]:hover {
+input[type=text]:hover, input[type=email]:hover, textarea:focus, textarea:hover, button:hover, #Btnsubmit:hover {
 
   border-color: #041B15;
 
@@ -260,23 +225,12 @@ input[type=email] {
   width: 50%;
   padding: 12px 20px;
   margin: 8px 0px 8px 0px;
-  
   margin-right: 5%;
   box-sizing: border-box;
   border-style: none solid solid none;
   background-color: #fcf0cc;
   border-width: 7.5px;
   resize: none;
-}
-
-input[type=email]:focus {
-  outline: none;
-}
-
-input[type=email]:hover {
-
-  border-color: #041B15;
-
 }
 
 textarea {
@@ -293,16 +247,6 @@ textarea {
   resize: none;
 }
 
-textarea:focus {
-
-  outline: none;
-}
-
-textarea:hover {
-
-  border-color: #041B15;
-
-}
 
 button {
   font-family: Arial, Helvetica, sans-serif;
@@ -318,14 +262,8 @@ button {
 
 }
 
-button:hover {
-
-  border-color: #041B15;
-
-}
 
 #blank {
-
 background-color: transparent;
 border-color: transparent;
 
@@ -345,19 +283,12 @@ border-color: transparent;
   border-width: 7.5px;
 }
 
-#Btnsubmit:hover{
 
-  border-color: #041B15;
-
-}
-
-footer{
-
+footer {
 text-align: center;
 width: 750px;
 margin-left: 2.5%;
 margin-right:5% ;
-
 }
 
 .info
